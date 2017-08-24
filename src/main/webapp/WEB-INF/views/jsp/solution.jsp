@@ -36,8 +36,8 @@
 	<div class="row">
 	<c:forEach var = "columns" begin="0" end="${width-1}">
 		<c:choose>
-		<c:when test="${board[rows][columns] == true}"><div class="gameBlock alive"></div></c:when>
-		<c:otherwise><div class="gameBlock"></div></c:otherwise>
+		<c:when test="${board[rows][columns] == true}"><div class="gameBlock mutable alive"></div></c:when>
+		<c:otherwise><div class="gameBlock mutable"></div></c:otherwise>
 		</c:choose>
 	</c:forEach>
 	</div>

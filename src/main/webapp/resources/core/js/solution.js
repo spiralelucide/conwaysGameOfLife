@@ -4,7 +4,7 @@ $(document).ready(function(){
 	var generation = 1;
 	$('#blowsMind').on('click', start);
 	$('#stops').on('click', stop);
-	$('.gameBlock').on('click', function(){
+	$('.mutable').on('click', function(){
 		$(this).toggleClass('alive');
 	});
 	
