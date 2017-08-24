@@ -9,6 +9,7 @@ $(document).ready(function(){
 	});
 	
 	function start(){
+		 clearInterval(interval);
 		 interval = setInterval(animate,500);
 	}
 	function stop(){
